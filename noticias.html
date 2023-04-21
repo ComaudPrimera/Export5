@@ -9,39 +9,40 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather&amp;display=swap">
     <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/aos.min.min.css">
 </head>
 
 <body style="font-family: Merriweather, serif;">
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
-        <div class="container"><img src="assets/img/Escudo%201%20cia%20transparente.png" width="5%" style="margin-right: 10px;position: static;"><a class="navbar-brand logo" href="#" style="font-family: Merriweather, serif;">PrimeraCBPA</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><img class="img-fluid" src="assets/img/Escudo%201%20cia%20transparente.png" width="5%" style="margin-right: 10px;position: static;"><a class="navbar-brand logo" href="#" style="font-family: Merriweather, serif;">PrimeraCBPA</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ms-auto" style="font-family: Merriweather, serif;">
-                    <li class="nav-item" style="padding: 0px 20px;"><a class="nav-link text-capitalize" href="index.html">inicio</a></li>
-                    <li class="nav-item" style="padding: 0px 20px;"><a class="nav-link text-capitalize" href="historia.html">historia</a></li>
-                    <li class="nav-item" style="padding: 0px 20px;"><a class="nav-link text-capitalize" href="especialidades.html">especialidades</a></li>
-                    <li class="nav-item" style="padding: 0px 20px;"><a class="nav-link text-capitalize" href="voluntarios.html">Voluntarios</a></li>
-                    <li class="nav-item" style="padding: 0px 20px;"><a class="nav-link text-capitalize active" href="noticias.html">noticias</a></li>
-                    <li class="nav-item" style="padding: 0px 20px;"><a class="nav-link text-capitalize" href="contacto.html">contacto</a></li>
-                    <li class="nav-item" style="padding: 0px 20px;"><a class="btn btn-primary text-capitalize fw-light" role="button" href="login.html" style="border-style: none;padding: 10px;">inicio sesión</a></li>
+                    <li class="nav-item d-xl-flex d-xxl-flex align-items-xl-center align-items-xxl-center" style="padding: 0px 20px;"><a class="nav-link text-capitalize" href="index.html">inicio</a></li>
+                    <li class="nav-item d-xl-flex d-xxl-flex align-items-xl-center align-items-xxl-center" style="padding: 0px 20px;"><a class="nav-link text-capitalize" href="historia.html">historia</a></li>
+                    <li class="nav-item d-xl-flex d-xxl-flex align-items-xl-center align-items-xxl-center" style="padding: 0px 20px;"><a class="nav-link text-capitalize" href="especialidades.html">especialidades</a></li>
+                    <li class="nav-item d-xl-flex d-xxl-flex align-items-xl-center align-items-xxl-center" style="padding: 0px 20px;"><a class="nav-link text-capitalize" href="voluntarios.html">Voluntarios</a></li>
+                    <li class="nav-item d-xl-flex d-xxl-flex align-items-xl-center align-items-xxl-center" style="padding: 0px 20px;"><a class="nav-link text-capitalize active" href="noticias.html">noticias</a></li>
+                    <li class="nav-item d-xl-flex d-xxl-flex align-items-xl-center align-items-xxl-center" style="padding: 0px 20px;"><a class="nav-link text-capitalize" href="contacto.html">contacto</a></li>
+                    <li class="nav-item d-xxl-flex justify-content-xxl-center align-items-xxl-center" style="padding: 0px 10px;"><a class="btn btn-outline-primary btn-sm text-capitalize fw-light" role="button" href="login.html" style="border-style: none;padding: 10px;">inicio sesión</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <main class="page blog-post-list">
-        <section class="clean-block clean-blog-list dark">
+        <section data-aos="fade-down" class="clean-block clean-blog-list dark">
             <div class="container">
                 <div class="block-heading">
                     <h2 class="text-capitalize text-primary">noticias</h2>
                     <p>Aquí podrás encontrar un listado con las ultimas noticias de nuestra compañía</p>
                 </div>
-                <div class="block-content">
-                    <div class="clean-blog-post">
-                        <div class="row">
+                <div class="block-content" style="padding: 20px;">
+                    <div class="d-xxl-flex justify-content-xxl-center align-items-xxl-center clean-blog-post" style="padding: 10px;">
+                        <div class="row d-xxl-flex justify-content-center align-items-center align-content-center justify-content-xxl-center align-items-xxl-center">
                             <div class="col-lg-5"><img class="rounded img-fluid" src="assets/img/Noticias/126A.png"></div>
                             <div class="col-lg-7">
                                 <h3>Cumpleaños</h3>
                                 <div class="info"><span class="text-muted">28 de septiembre del 2023. Por:&nbsp;<a href="#">Comaud</a></span></div>
-                                <p>Texto.</p><button class="btn btn-outline-primary btn-sm" type="button">Leer articulo</button>
+                                <p>Texto.</p><a class="btn btn-outline-primary btn-sm" role="button" href="noticia-articulo.html">Leer articulo</a>
                             </div>
                         </div>
                     </div>
@@ -53,7 +54,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-auto col-sm-3 m-auto" style="width: auto;">
-                    <h5 class="text-capitalize">páginas de interes&nbsp;</h5>
+                    <h5 class="text-capitalize">Contacto</h5>
+                    <hr style="color: var(--bs-white);">
+                    <ul>
+                        <li><a class="text-capitalize" href="tel:228500103" target="_blank">(2) 2850 0103</a></li>
+                        <li><a href="https://goo.gl/maps/rJs9V4oXc7286YYGA" target="_blank">Veintiuno de Mayo 101, Puente Alto, RM</a></li>
+                    </ul>
+                </div>
+                <div class="col-auto col-sm-3 m-auto" style="width: auto;">
+                    <h5 class="text-capitalize">páginas Institucionales</h5>
                     <ul>
                         <li><a class="text-capitalize" href="https://cbpa.cl/" target="_blank">CBPA</a></li>
                         <li><a href="https://www.bomberos.cl/consejo-regional-metropolitano" target="_blank">Consejo Regional Metropolitano</a></li>
@@ -71,11 +80,12 @@
             </div>
         </div>
         <div class="footer-copyright" style="background: rgba(7,6,0,0);">
-            <p>© 2023 Copyright PrimeraCBPA</p>
+            <p><strong>© 2023 Primera compañía CBPA. </strong>Todos los derechos reservados&nbsp;</p>
         </div>
     </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/aos.min.min.js"></script>
 </body>
 
 </html>

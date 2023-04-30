@@ -7,9 +7,6 @@
         <loc>/contacto.html</loc>
     </url>
     <url>
-        <loc>/especialidades.html</loc>
-    </url>
-    <url>
         <loc>/historia.html</loc>
     </url>
     <url>
@@ -22,10 +19,16 @@
         <loc>/login.html</loc>
     </url>
     <url>
+        <loc>/materialMayor.html</loc>
+    </url>
+    <url>
         <loc>/noticia-articulo.html</loc>
     </url>
     <url>
         <loc>/noticias.html</loc>
+    </url>
+    <url>
+        <loc>/oficialidad.html</loc>
     </url>
     <url>
         <loc>/slider.html</loc>

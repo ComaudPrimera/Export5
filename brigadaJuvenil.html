@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/css/styles.min.css">
+    <link rel="stylesheet" href="assets/css/aos.min.min.css">
 </head>
 
 <body>
@@ -26,13 +27,15 @@
         <div class="container"><img class="img-fluid" src="assets/img/Escudo%201%20cia%20transparente.png" width="5%" style="margin-right: 10px;position: static;"><a class="navbar-brand logo" href="index.html" style="font-family: Merriweather, serif;">PrimeraCBPA</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav ms-auto" style="font-family: Merriweather, serif;">
-                    <li class="nav-item d-xl-flex d-xxl-flex align-items-xl-center align-items-xxl-center" style="padding: 0px 20px;"><a class="nav-link text-capitalize fw-normal text-center" href="index.html">inicio</a></li>
-                    <li class="nav-item text-capitalize fw-normal text-center d-xl-flex d-xxl-flex align-items-xl-center align-items-xxl-center" style="padding: 0px 20px;"><a class="nav-link text-capitalize fw-normal text-center" href="historia.html">historia</a></li>
-                    <li class="nav-item text-capitalize fw-normal text-center d-xl-flex d-xxl-flex align-items-xl-center align-items-xxl-center" style="padding: 0px 20px;"><a class="nav-link text-capitalize fw-normal text-center" href="especialidades.html">especialidades</a></li>
-                    <li class="nav-item text-capitalize fw-normal text-center d-xl-flex d-xxl-flex align-items-xl-center align-items-xxl-center" style="padding: 0px 20px;"><a class="nav-link text-capitalize fw-normal text-center" href="voluntarios.html">Voluntarios</a></li>
-                    <li class="nav-item text-capitalize fw-normal text-center d-xl-flex d-xxl-flex align-items-xl-center align-items-xxl-center" style="padding: 0px 20px;"><a class="nav-link text-capitalize fw-normal text-center active" href="brigadaJuvenil.html">Brigada juvenil</a></li>
-                    <li class="nav-item text-capitalize fw-normal text-center d-xl-flex d-xxl-flex align-items-xl-center align-items-xxl-center" style="padding: 0px 20px;"><a class="nav-link text-capitalize fw-normal text-center" href="noticias.html">noticias</a></li>
-                    <li class="nav-item text-capitalize fw-normal text-center d-xl-flex d-xxl-flex align-items-xl-center align-items-xxl-center" style="padding: 0px 20px;"><a class="nav-link text-capitalize fw-normal text-center" href="contacto.html">contacto</a></li>
+                    <li class="nav-item text-capitalize fw-normal text-center border-0 d-xl-flex d-xxl-flex align-items-xl-center align-items-xxl-center" style="padding: 0px;text-align: center;margin: 0px 10px;"><a class="nav-link text-capitalize fw-normal text-center" href="index.html"><button class="btn text-capitalize fw-normal text-center border-0" type="button" style="padding: 0px;text-align: center;">Inicio</button></a></li>
+                    <li class="nav-item text-capitalize fw-normal text-center border-0 d-xl-flex d-xxl-flex justify-content-xl-center align-items-xl-center justify-content-xxl-center align-items-xxl-center" style="padding: 0px;text-align: center;margin: 0px 10px;">
+                        <div class="nav-item dropdown d-xl-flex justify-content-xl-center align-items-xl-center" style="text-align: center;padding: 0px;"><a aria-expanded="false" data-bs-toggle="dropdown" href="#" style="text-align: center;padding: 0px;"><button class="btn border-0" type="button">Compañía</button></a>
+                            <div class="dropdown-menu"><a class="dropdown-item" href="historia.html">Historia</a><a class="dropdown-item" href="materialMayor.html">Material Mayor</a><a class="dropdown-item" href="oficialidad.html">Oficialidad</a><a class="dropdown-item" href="voluntarios.html">Voluntarios</a></div>
+                        </div>
+                    </li>
+                    <li class="nav-item text-capitalize fw-normal text-center border-0 d-xl-flex d-xxl-flex align-items-xl-center align-items-xxl-center" style="padding: 0px;text-align: center;margin: 0px 10px;"><a class="nav-link text-capitalize fw-normal text-center active" href="brigadaJuvenil.html"><button class="btn text-capitalize fw-normal text-center border-0" type="button" style="padding: 0px;text-align: center;">Brigada juvenil</button></a></li>
+                    <li class="nav-item text-capitalize fw-normal text-center border-0 d-xl-flex d-xxl-flex align-items-xl-center align-items-xxl-center" style="padding: 0px;text-align: center;margin: 0px 10px;"><a class="nav-link text-capitalize fw-normal text-center" href="noticias.html"><button class="btn text-capitalize fw-normal text-center border-0" type="button" style="padding: 0px;text-align: center;">Noticias</button></a></li>
+                    <li class="nav-item text-capitalize fw-normal text-center border-0 d-xl-flex d-xxl-flex align-items-xl-center align-items-xxl-center" style="padding: 0px;text-align: center;margin: 0px 10px;"><a class="nav-link text-capitalize fw-normal text-center" href="contacto.html"><button class="btn text-capitalize fw-normal text-center border-0" type="button" style="padding: 0px;text-align: center;">Contacto</button></a></li>
                     <li class="nav-item text-capitalize fw-normal text-center d-xxl-flex justify-content-xxl-center align-items-xxl-center" style="padding: 0px 10px;"><a class="btn btn-outline-primary btn-sm text-capitalize fw-normal text-center" role="button" href="login.html" style="border-style: none;padding: 10px;">inicio sesión</a></li>
                 </ul>
             </div>
@@ -42,38 +45,69 @@
         <section class="clean-block clean-post dark">
             <div class="container">
                 <div class="block-content">
-                    <div class="post-image" style="background: url(&quot;assets/img/Brigada%20Juvenil.png&quot;) center / cover no-repeat;"></div>
-                    <div class="post-body">
-                        <h3>Lorem Ipsum dolor</h3>
+                    <div data-aos="fade-down" data-aos-duration="1000" class="post-image" style="background: url(&quot;assets/img/Brigada%20Juvenil.png&quot;) center / cover no-repeat;"></div>
+                    <div data-aos="fade-down" data-aos-duration="1000" class="post-body">
+                        <h3>Historia de la brigada Juvenil</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         <figure class="figure"><img class="rounded img-fluid figure-img" src="assets/img/scenery/image6.jpg" alt="A generic square placeholder image with rounded corners in a figure.">
                             <figcaption class="figure-caption">Lorem ipsum dolor</figcaption>
                         </figure>
-                        <h4>Lorem Ipsum</h4>
+                    </div>
+                    <div data-aos="fade-down" data-aos-duration="1000" class="post-body">
+                        <h3>Actividades de la brigada Juvenil</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <figure class="figure"><img class="rounded img-fluid figure-img" src="assets/img/scenery/image4.jpg" alt="A generic square placeholder image with rounded corners in a figure.">
-                                    <figcaption class="figure-caption">Lorem Ipsum dolor</figcaption>
-                                </figure>
-                            </div>
-                            <div class="col">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.&nbsp;</p>
-                            </div>
-                        </div>
-                        <h4>Lorem Ipsum dolor</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        <div class="row">
-                            <div class="col">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="col-md-6">
-                                <figure class="figure"><img class="rounded img-fluid figure-img" src="assets/img/scenery/image5.jpg" alt="A generic square placeholder image with rounded corners in a figure.">
-                                    <figcaption class="figure-caption">Lorem Ipsum dolor</figcaption>
-                                </figure>
+                        <div class="simple-slider">
+                            <div class="swiper-container">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide" style="background: url(&quot;https://cdn.bootstrapstudio.io/placeholders/1400x800.png&quot;) center center / cover no-repeat;"></div>
+                                    <div class="swiper-slide" style="background: url(&quot;https://cdn.bootstrapstudio.io/placeholders/1400x800.png&quot;) center center / cover no-repeat;"></div>
+                                    <div class="swiper-slide" style="background: url(&quot;https://cdn.bootstrapstudio.io/placeholders/1400x800.png&quot;) center center / cover no-repeat;"></div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
                             </div>
                         </div>
                     </div>
+                    <section data-aos="fade-down" data-aos-duration="1000" class="clean-block about-us" style="padding: 0px;margin: 30px 0px;margin-top: 30px;">
+                        <div class="container py-4 py-xl-5">
+                            <div class="row mb-4 mb-lg-5" data-aos="fade-down" data-aos-duration="1000">
+                                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                                    <h2 class="text-capitalize text-black-50">preguntas frecuentes</h2>
+                                </div>
+                            </div>
+                            <div class="row" data-aos="fade-down" data-aos-duration="1000">
+                                <div class="col-12">
+                                    <div class="accordion" role="tablist" id="accordion-2">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-2 .item-1" aria-expanded="false" aria-controls="accordion-2 .item-1">¿Como postular?</button></h2>
+                                            <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-2">
+                                                <div class="accordion-body">
+                                                    <p class="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-2 .item-2" aria-expanded="false" aria-controls="accordion-2 .item-2">Accordion Item</button></h2>
+                                            <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-2">
+                                                <div class="accordion-body">
+                                                    <p class="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-2 .item-3" aria-expanded="false" aria-controls="accordion-2 .item-3">Accordion Item</button></h2>
+                                            <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-2">
+                                                <div class="accordion-body">
+                                                    <p class="mb-0">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </section>
@@ -84,7 +118,7 @@
                 <div class="col-auto col-sm-3 m-auto" style="width: auto;">
                     <h5 class="text-capitalize">Contacto</h5>
                     <hr style="color: var(--bs-white);">
-                    <ul>
+                    <ul class="list-unstyled">
                         <li><a href="tel:228500103"><i class="fas fa-phone-alt" style="margin-right: 5px;"></i></a><a class="text-capitalize" href="tel:228500103" target="_blank">(2) 2850 0103</a></li>
                         <li><a href="https://goo.gl/maps/rJs9V4oXc7286YYGA"><i class="fas fa-map-marker-alt" style="margin-right: 5px;color: var(--bs-gray-400);"></i></a><a href="https://goo.gl/maps/rJs9V4oXc7286YYGA" target="_blank">21 de Mayo 101, Puente Alto, RM</a></li>
                     </ul>
@@ -94,16 +128,11 @@
                     <ul>
                         <li><a class="text-capitalize" href="https://cbpa.cl/" target="_blank">CBPA</a></li>
                         <li><a href="https://www.bomberos.cl/consejo-regional-metropolitano" target="_blank">Consejo Regional Metropolitano</a></li>
-                        <li><a class="text-capitalize" href="https://www.bomberos.cl/" target="_blank">bomberos de chile</a></li>
+                        <li><a class="text-capitalize" target="_blank" href="https://www.bomberos.cl/">bomberos de chile</a></li>
                     </ul>
                 </div>
                 <div class="col-auto col-sm-3 m-auto" style="width: auto;">
-                    <h5 class="text-capitalize">Otras instituciones</h5>
-                    <ul>
-                        <li><a href="tel:131"><i class="fas fa-phone-alt" style="margin-right: 5px;"></i></a><a href="https://samu.cl/" target="_blank">SAMU</a></li>
-                        <li><a href="tel:133"><i class="fas fa-phone-alt" style="margin-right: 5px;"></i></a><a class="text-capitalize" href="https://www.carabineros.cl/" target="_blank">Carabineros de chile</a></li>
-                        <li><a href="tel:134"><i class="fas fa-phone-alt" style="margin-right: 5px;"></i></a><a href="https://pdichile.cl/" target="_blank">PDI</a></li>
-                    </ul>
+                    <h5 class="text-capitalize">Otras instituciones</h5><a class="btn btn-lg border rounded-pill border-info" role="button" style="width: 100%;padding: 8px;--bs-primary: #EDE814;--bs-primary-rgb: 237,232,20;background: #EDE814;color: #2B2F7E;" target="_blank" href="tel:131"><i class="fas fa-phone-alt" style="margin-right: 10px;"></i>SAMU</a><a class="btn btn-lg text-capitalize border rounded-pill border-info" role="button" style="width: 100%;padding: 8px;--bs-primary: #EDE814;--bs-primary-rgb: 237,232,20;background: #017227;margin-top: 8px;color: #FEFEFE;" target="_blank" href="tel:133"><i class="fas fa-phone-alt" style="margin-right: 10px;"></i>Carabineros</a><a class="btn btn-lg text-capitalize border rounded-pill border-info" role="button" style="width: 100%;padding: 8px;--bs-primary: #EDE814;--bs-primary-rgb: 237,232,20;background: #02295B;color: #FEFEFE;margin-top: 8px;" target="_blank" href="tel:134"><i class="fas fa-phone-alt" style="margin-right: 10px;"></i>PDI</a>
                 </div>
             </div>
         </div>
@@ -115,6 +144,7 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/script.min.js"></script>
+    <script src="assets/js/aos.min.min.js"></script>
 </body>
 
 </html>

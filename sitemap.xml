@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>/users/registrarse.html</loc>
+    </url>
+    <url>
         <loc>/brigadaJuvenil.html</loc>
     </url>
     <url>
@@ -10,28 +13,25 @@
         <loc>/historia.html</loc>
     </url>
     <url>
-        <loc>/historia-articulo.html</loc>
+        <loc>/historiaArticulo.html</loc>
     </url>
     <url>
         <loc>/</loc>
     </url>
     <url>
-        <loc>/login.html</loc>
+        <loc>/inicioSesion.html</loc>
     </url>
     <url>
         <loc>/materialMayor.html</loc>
     </url>
     <url>
-        <loc>/noticia-articulo.html</loc>
+        <loc>/noticiaArticulo.html</loc>
     </url>
     <url>
         <loc>/noticias.html</loc>
     </url>
     <url>
         <loc>/oficialidad.html</loc>
-    </url>
-    <url>
-        <loc>/slider.html</loc>
     </url>
     <url>
         <loc>/voluntarios.html</loc>
